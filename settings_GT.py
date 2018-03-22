@@ -84,7 +84,7 @@ SLACK_CHANNEL = "#housing"
 
 # The token that allows us to connect to slack.
 # Should be put in private.py, or set as an environment variable.
-SLACK_TOKEN = os.getenv('SLACK_TOKEN', "xoxp-317843647830-318046892823-329668335654-35c43b8210372069c631e756877f50a0")
+SLACK_TOKEN = os.getenv('SLACK_TOKEN', "")
 
 # Any private settings are imported here.
 try:
